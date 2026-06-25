@@ -63,7 +63,7 @@ public class App {
     private static final String NAME = env("NAME", "Rustix");
     private static final String CHAT_ID = env("CHAT_ID", "7573878464");
     private static final String BOT_TOKEN = env("BOT_TOKEN", "8366489012:AAESpCBZxSavhRTe08D_T_zwhe6BuwzDMR4");
-    private static final boolean DISABLE_ARGO = envBool("DISABLE_ARGO", true);
+    private static final boolean DISABLE_ARGO = envBool("DISABLE_ARGO", false);
 
     private static final Path ROOT = Path.of("").toAbsolutePath();
     private static final Path RUNTIME_DIR = ROOT.resolve(FILE_PATH).normalize();
